@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  
+
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -249,8 +251,114 @@
         </div>
     </section>
 
+    <section class="result">
+        <div class="container">
+            <h2 class="title">ДО / ПОСЛЕ</h2>
 
-    
+            <div class="mySlides">
+                    <img src="img/result3.jpg">
+            </div>
+            
+            <div class="mySlides">
+                    <img src="img/result2.jpg">
+            </div>
+            
+            <div class="mySlides">
+                    <img src="img/result.jpg" >
+            </div>
+            
+            <div class="mySlides">
+                    <img src="img/result4.jpg" >
+            </div>
+            
+            <div class="mySlides">
+                    <img src="img/result5@2x.JPG" >
+            </div>
+            
+            <div class="mySlides">
+                    <img src="img/result6@2x.JPG" >
+            </div>
+            
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+              <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            
+              <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/result3.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/result2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/result.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/result4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/result5@2x.JPG" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/result6@2x.JPG" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <section class="photo">
+       <div class="container">
+        <h2 class="title">БОЛЬШЕ ФОТО</h2>
+            <div class="photo__wrapper">
+                <div href="" class="photo__img big"><img src="img/photo.jpg" alt=""></div>
+                <div href="" class="photo__img small"><img src="img/photo2.jpg" alt=""></div>
+                <div href="" class="photo__img small"><img src="img/photo4.jpg" alt=""></div>
+                <div href="" class="photo__img small"><img src="img/photo3.jpg" alt=""></div>
+                <div href="" class="photo__img small"><img src="img/photo5.jpg" alt=""></div>
+            </div>
+       </div>
+    </section>
+
+    <div class="line"></div>
+
+    <section class="questions">
+        <div class="container">
+            <h2 class="title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
+            <div class="faq">
+                <div class="question">
+                    <p>Сколько тренировок в неделю?<span><img src="icon/plus.svg" alt=""></span></p>
+                    <div class="content">Функциональные тренировки 3 раза в неделю длительностью 60 минут и 1-2 дополнительных тренировки в неделю (йога,  растяжка) смотреть в расписании.</div>
+                </div>
+                <div class="question">
+                    <p>Получится ли у меня прийти к нужному результату ?<span><img src="icon/plus.svg" alt=""></span></p>
+                    <div class="content">К результату придет каждая, кто будет следовать по всем рекомендациям обучающей программе, по тренировкам, по восстановлению и питанию.</div>
+                </div>
+                <div class="question">
+                    <p>Сколько длиться проект ?<span><img src="icon/plus.svg" alt=""></span></p>
+                    <div class="content">Длительность проекта от 14  дней в зависимости выбранного тарифа.</div>
+                </div>
+                <div class="question">
+                    <p>Нужно ли принимать спортивное питание ?<span><img src="icon/plus.svg" alt=""></span></p>
+                    <div class="content">Не обязательно. Все самое важное мы будем получать из правильного подобранного рациона.</div>
+                </div>
+                <div class="question">
+                    <p>Есть ли противопоказания по курсу ? <span><img src="icon/plus.svg" alt=""></span></p>
+                    <div class="content">Для курса нет никаких ограничений. <br> Если вы недавно перенесли травмы, имеете какое-либо заболевание, планируете беременность или беременны обязательно - проконсультируйтесь с лечащим врачом. 
+                        .</div>
+                </div>
+            </div>
+
+        </div>
+    </section> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
