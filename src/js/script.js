@@ -1,3 +1,4 @@
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -28,12 +29,14 @@ function showSlides(n) {
 }
 
 $('.question').click(function() {
+  $(this).find('span').css('-webkit-transform', 'rotate(0deg)');
   $(this).find('.content').toggle(200); //скрытие, показ ответа
-  $(this).find('span').css('transform', 'rotate(45deg)'); //поворот стрелки
+   //поворот стрелки
   if ($(this).hasClass('open')) {
   $(this).removeClass('open');
   } else {
+  $(this).find('span').css('-webkit-transform', 'rotate(45deg)');
   $(this).addClass('open');
-  $(this).find('span').css('transform', 'rotate(180deg)'); //поворот стрелки
+   //поворот стрелки
   };
   });
