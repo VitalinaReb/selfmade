@@ -17,7 +17,7 @@
             height: 250px
     .choose
         height: 450px
-        button
+        .btn
             margin-top: 200px
     .subscript
         &__block
@@ -86,10 +86,7 @@
             &_text
                 font-size: 25px
                 font-weight: 500
-            a
-                .btn
-                    padding: 10px 25px
-                    font-size: 18px
+                margin-bottom: 60px
     .selfmade
         .title
             margin-bottom: 0
@@ -98,12 +95,11 @@
 
     .choose
         height: 350px
-        button
+        
+        .btn
+            padding: 10px 25px
+            font-size: 18px
             margin-top: 155px
-        a
-            .btn
-                padding: 10px 25px
-                font-size: 18px
  
     .subscript
         &__block
@@ -122,10 +118,9 @@
             margin-top: 60px
         &__price
             margin-bottom: 15px
-        a
-            .btn
-                padding: 10px 25px
-                font-size: 18px
+        .btn
+            padding: 10px 30px
+            font-size: 18px
         
     .modules
         &__sections
@@ -164,7 +159,7 @@
 
     .container
         width: 540px
-        padding: 0 10px
+        // padding: 0 10px
     
     .header
         background: url("../img/header3.jpg") center center/cover no-repeat
@@ -175,11 +170,15 @@
             width: 75%
             padding-top: 160px
             h1
-                font-size: 30px
+                font-size: 35px
                 span
-                    font-size: 60px
+                    font-size: 70px
             &_text
                 font-size: 20px
+        .btn
+            font-size: 18px
+            padding: 10px 30px
+
         .burger-menu
             display: block
         
@@ -273,6 +272,10 @@
             width: 100%
             h1
                 color: #ffffff
+                margin-bottom: 30px
+                font-size: 25px
+                span
+                    font-size: 55px
             &_text
                 display: none
         
@@ -338,6 +341,10 @@
             width: 100%
             font-size: 16px
             padding: 0
+        .question
+            cursor: pointer
+            span
+                display: none
             
 
 @media(max-width: 400px)
@@ -349,11 +356,11 @@
         .big
             img
                 height: 400px
-                width: 300px
+                width: 280px
         .small
             img
                 height: 200px
-                width: 300px
+                width: 280px
 
 
 
